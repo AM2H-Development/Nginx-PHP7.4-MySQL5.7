@@ -14,7 +14,7 @@ services:
       - ./webcontent:/var/www/html
       - ./nginx:/etc/nginx/conf.d/
     ports:
-      - "8080:80"
+      - "8180:80"
  # Php-fpm configuration
   php:
     image: php:7.4-fpm
